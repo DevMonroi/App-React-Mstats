@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Monroi",
+    "slug": "Monroi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/micon.png",
+    "userInterfaceStyle": "dark",
+    "notification":{
+      "icon":"./assets/M.png"
+    },
+    "splash": {
+      "image": "./assets/splashmsplah2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "black"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-iconandroidm.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
